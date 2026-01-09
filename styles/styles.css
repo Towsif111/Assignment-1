@@ -203,12 +203,50 @@
     text-align: center;
     padding: 50px;
     background-color:#f7f6f2;
+
 }
 
 .think-content{
     margin: 0 auto;
+    max-width: 500px;
+
+}
+
+.think-content h2{
+    font-size: 40px;
+    color: #000000;
+
+}
+
+.think-content p{
+    font-size: 16px;
+    color: #627382;
+
+}
+
+.think-btn{
+    display: inline;
+    background-color: #30B868;
+    color: #FFFFFF;
+    padding: 12px 15px;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.1 ease;
+
+}
+
+.think-btn:hover{
+    background-color: lightcoral;
+}
+
+.thinks{
+    font-size: 15px;
+    margin-top: 10px;
     
 }
+
 
 
 
