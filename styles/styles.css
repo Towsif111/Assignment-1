@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 120px;
+    background-color: solid white;
+    
+    
+}
+
+.navigations a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: #000000;
+    font-size: 20px;
+
+}
+
+.nav-btn a{
+    text-decoration: none;
+    background-color: #30B868;
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+    padding: 15px 20px 15px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.2 ease;
+}
+
+.nav-btn a:hover{
+    background-color: cadetblue;
+
+}
+
