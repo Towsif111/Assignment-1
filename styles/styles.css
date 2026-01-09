@@ -38,14 +38,33 @@
 
 }
 
+.hero .early{
+    display: inline;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 10px 25px;
+    transition: background-color 0.1 ease;
+    background: #FFFFFF;
+
+}
+
+.hero .early:hover{
+    background-color: lemonchiffon;
+}
+
+
+
 .hero{
     text-align: center;
     padding: 150px 20px;
     background-image: url(../assets/hero-bg.png);
     background-repeat: no-repeat;
-    
 
+    
 }
+
+
 
 .hero h1{
     color: #FFFFFF;
@@ -130,14 +149,24 @@
 
 #features{
     text-align: center;
-    padding: 55px 20px;
+    padding: 60px 20px;
+    background-color: #f7f6f2;
 
+}
+
+#features h2{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+#features p{
+    color: #627382;
 }
 
 .features{
     display: flex;
-    justify-content: center;
-    gap: 20px;
+    justify-content:center;
+    gap: 25px;
     flex-wrap: wrap;
     margin-top: 45px;
 
@@ -148,20 +177,46 @@
 
 }
 
+.icon{
+    justify-content: center;
+    align-items: center;
+}
+
+.icon img{
+    width: 25px;
+}
+
 .feature{
-    width: 200px;
+    width: 250px;
     padding: 15px;
-    border-radius: 1px solid white;
     border-radius: 10px;
+    text-align: center;
+    background-color: #FFFFFF;
+    box-shadow: 0px 5px 8px white;
+
+}
+
+.feature h3{
+    font-size: 25px;
+    color: #001931;
+   
+}
+
+.feature p{
+    font-size: 14px;
+    color: #627382;
 
 }
 
 .icon img{
-    display: auto;
-    margin: 0 auto 10px;
+    display: block;
+    margin: 0 auto;
     width: 50px;
     height: auto;
+    margin-bottom: 10px;
 }
+
+
 
 #solution{
     display: flex;
