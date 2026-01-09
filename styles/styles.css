@@ -43,6 +43,7 @@
     padding: 150px 20px;
     background-image: url(../assets/hero-bg.png);
     background-repeat: no-repeat;
+    
 
 }
 
@@ -127,10 +128,86 @@
 }
 
 .feature{
-    width: 250px;
-    padding: 20px;
+    width: 200px;
+    padding: 15px;
+    border-radius: 1px solid white;
     border-radius: 10px;
     background: #FFFFFF;
+}
+
+.feature img{
+    display: block;
+    margin: 0 auto 10px;
+    width: 50px;
+    height: auto;
+}
+
+#solution{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+
+}
+
+.image{
+    max-width: 1000px;
+
+}
+
+.image img{
+    width: 98%;
+    height: auto;
+    display: block;
+    border-radius: 15px;
+
+}
+
+.solution-txt{
+    max-width: 450px;
+    text-align: left;
+    font-size: 16px;
+    
+}
+
+.solution-txt h2{
+    color: #30B868;
+    margin-bottom: 10px;
+}
+
+.solution-txt h3{
+    font-size: 48px;
+    color: #001931;
+}
+
+.solution-txt p{
+    color: #627382;
+    font-size: 16px;
+
+}
+
+.solution-txt ul{
+    list-style:none;
+    padding: 0;
+}
+
+.solution-txt ul li{
+    align-items: center;
+    gap: 2px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+#think{
+    text-align: center;
+    padding: 50px;
+    background-color:#f7f6f2;
+}
+
+.think-content{
+    margin: 0 auto;
+    
 }
 
 
